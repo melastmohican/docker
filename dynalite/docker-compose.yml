@@ -1,0 +1,18 @@
+version: "3"
+
+services:
+  dynalite:
+    image: dlsniper/dynalite
+    networks:
+      - default
+    ports:
+      - 4567:4567
+      
+  dynamodbadmin:
+    image: instructure/dynamo-local-admin
+    networks:
+      - default
+    ports:
+      - 8001:8001
+    environment:
+      DYNAMO_ENDPOINT: http://dynalite:4567/
