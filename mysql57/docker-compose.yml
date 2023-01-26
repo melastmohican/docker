@@ -4,10 +4,10 @@ services:
     image: mysql:5.7.40
     environment:
       MYSQL_DATABASE: 'db'
-      MYSQL_ROOT_PASSWORD: 'M4r10test'
+      MYSQL_ROOT_PASSWORD: '****'
       MYSQL_ROOT_HOST: '%'
-      MYSQL_USER: 'veeva'
-      MYSQL_PASSWORD: 'H45l0'
+      MYSQL_USER: 'userone'
+      MYSQL_PASSWORD: '****'
     ports:
       - '13306:3306'
     expose:

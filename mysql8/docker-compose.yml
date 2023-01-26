@@ -4,7 +4,7 @@ services:
     image: mysql:8.0.32
     environment:
       MYSQL_DATABASE: 'db'
-      MYSQL_ROOT_PASSWORD: 'M4r10test'
+      MYSQL_ROOT_PASSWORD: '****'
       MYSQL_ROOT_HOST: '%'
     ports:
       - '3308:3306'
