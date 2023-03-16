@@ -6,3 +6,5 @@ https://github.com/docker/awesome-compose
 
 https://earthly.dev/blog/youre-using-docker-compose-wrong/
 https://gabrieltanner.org/blog/docker-compose
+
+https://github.com/bitnami/containers
