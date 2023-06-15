@@ -1,16 +1,20 @@
-version: "3"
+version: '3'
 services:
   zookeeper:
-    image: 'bitnami/zookeeper:latest'
+    image: bitnami/zookeeper:latest
+    container_name: zookeeper
     ports:
       - '2181:2181'
     environment:
       - ALLOW_ANONYMOUS_LOGIN=yes
+
   kafka:
-    image: 'bitnami/kafka:latest'
+    image: bitnami/kafka:latest
+    container_name: kafka
     ports:
       - '9092:9092'
     environment:
+      - KAFKA_ENABLE_KRAFT=no
       - KAFKA_BROKER_ID=1
       - KAFKA_CFG_LISTENERS=PLAINTEXT://:9092
       - KAFKA_CFG_ADVERTISED_LISTENERS=PLAINTEXT://127.0.0.1:9092
