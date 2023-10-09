@@ -1,3 +1,6 @@
 [submodule "bitnami/containers"]
 	path = bitnami/containers
 	url = https://github.com/bitnami/containers.git
+[submodule "containerized-guacamole"]
+	path = containerized-guacamole
+	url = https://github.com/8gears/containerized-guacamole.git
