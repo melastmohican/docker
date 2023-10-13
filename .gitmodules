@@ -4,3 +4,6 @@
 [submodule "containerized-guacamole"]
 	path = containerized-guacamole
 	url = https://github.com/8gears/containerized-guacamole.git
+[submodule "guacamole-docker-compose"]
+	path = guacamole-docker-compose
+	url = https://github.com/boschkundendienst/guacamole-docker-compose.git
