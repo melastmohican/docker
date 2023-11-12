@@ -7,3 +7,9 @@
 [submodule "guacamole-docker-compose"]
 	path = guacamole-docker-compose
 	url = https://github.com/boschkundendienst/guacamole-docker-compose.git
+[submodule "zeppelin-spark-standalone-cluster"]
+	path = zeppelin-spark-standalone-cluster
+	url = https://github.com/jgoodman8/zeppelin-spark-standalone-cluster.git
+[submodule "docker-zeppelin"]
+	path = docker-zeppelin
+	url = https://github.com/big-data-europe/docker-zeppelin.git

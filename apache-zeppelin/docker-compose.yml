@@ -1,0 +1,8 @@
+version: "3.8"        # a more current version
+services:
+  zeppelin:
+    image: apache/zeppelin:0.10.1
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./notebooks:/zeppelin/notebook
