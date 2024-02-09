@@ -1,0 +1,9 @@
+version: "2"
+services:
+  elasticmq:
+    image: softwaremill/elasticmq-native
+    ports:
+      - '9324:9324'  #Server
+      - '9325:9325'  #UI
+volumes:
+  elasticmq: null
